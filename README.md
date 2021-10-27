@@ -11,3 +11,18 @@ Conditions:
 
 ![equation](https://latex.codecogs.com/gif.latex?y%280%29%3Dq%24%2C%20%24%5Cfrac%7Bdy%280%29%7D%7Bdt%7D%20%3D%20r)
 
+## Voila
+
+to run UI with Voila you need to open your console and run the next command:
+
+```
+voila .\UI_diff_eq_voila.ipynb
+```
+
+## Streamlit
+
+to run UI with streamlit you need to open your console and run the next command:
+
+```
+streamlit run .\UI_diff_eq_streamlit.py
+```
