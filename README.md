@@ -26,3 +26,9 @@ to run UI with streamlit you need to open your console and run the next command:
 ```
 streamlit run .\UI_diff_eq_streamlit.py
 ```
+
+## Functionality
+
+Two proposed UI have similar functions to work with differential equation.
+
+We have four parameters of equation to variate: omega, beta, q, r. Also, we have parameter of solve representation: Integrating steps. Due to equation solving with scipy odeint function, parameter of integrating steps didn't influence on solution convergence. Animation speed changes the speed of animation of phase portrait. We add possibility to save the solution. It saves file pandas dataframe with 3 colemns: time, y, y` in csv format.
